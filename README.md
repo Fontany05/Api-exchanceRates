@@ -42,13 +42,13 @@ npm run dev
 
 https://www.exchangerate-api.com
 
----
+
 
 ## ☁️ Despliegue en Azure (concepto)
 
 La API puede desplegarse usando Azure App Service,conectando al repositorio de GitHub para despligue continuo,desde la web se configuran manualmente variables de entorno,hay que autenticarse,seleccionar el repositoiro y rama y la aplicación quedara accesible mediante una URL pública
----
+
 Hay otras manera de realizar desde y github y desde nuestro editor de codigo ejemplo vscode,ademas hay una configuracion extra despues del deploy la cual es una clave de api,la cadena de conexion,etc
----
+
 En el caso de node debemos asegurarnos de que el servidor escuche en process.env.PORT
----
+
